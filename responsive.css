@@ -1,0 +1,194 @@
+@media screen and (max-width: 576px){
+    .main-section{
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .primary-heading{
+        font-size: 2rem;
+    }
+    .primary-description{
+        font-size: 16px;
+    }
+
+    .banner-content, .gamer-content, .career-content {
+        width: 100%;
+    }
+    .banner-section, .play-instantly-section-2{
+        flex-direction: column-reverse;
+    }
+    .gamer-area, .play-instantly-section, .careers-area{
+        flex-direction: column;
+    }
+
+    /* header section start here */
+    header{
+        box-shadow: none;
+        padding-top: 80px;
+        padding-bottom: 50px
+    }
+    .nav-section{
+        flex-direction: column;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    /* header section end here */
+
+    /* banner section start here */
+    .banner-content h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .banner{
+        background-position: 0px 500px;
+        background-size: cover;
+    }
+    .banner-description{
+        padding-top: 200px;
+        padding-bottom: 50px
+    }
+    /* banner section start here */
+
+    /* gamer section start here */
+
+    .gamer-description{
+        text-align: center;
+    }
+
+    .games-video{
+        grid-template-columns: 100%;
+        text-align: center;
+        gap: 50px;
+    }
+    /* gamer section end here */
+
+    /* play game instantly section start here */
+    .play-games-description, .play-games-description-2{
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    .play-games-image{
+        width: 100%;
+        padding-left: 80px;
+        margin-top: 50px;
+    }
+    .play-games-image-2{
+        width: 100%;
+        padding-right: 80px;
+        margin-top: 50px;
+    }
+    /* play game instantly section start here */
+
+    /* careers section start here */
+    .careers{
+        padding: 0px 30px;
+    }
+    .career-list li{
+        font-size: 16px;
+    }
+    .career-image img{
+        margin-top: 80px;
+        margin-bottom: 80px
+    }
+     /* careers section end here */
+
+    /* game list section start here */
+    .game-list-area{
+        gap: 0px;
+        padding: 0px;
+    }
+    .game-list-area button{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .game-list-area button img{
+        margin-right: 0px;
+        width: 18px;
+    }
+    /* game list section end here */
+
+    /* footer section start here */
+    .footer-menu li a{
+        padding: 20px;
+    }
+    .footer-menu ul, .footer-menu-2 ul{
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .social-icon i{
+        display: inline-block;
+        width: 30%;
+        font-size: 44px;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .main-section{
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .banner{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .gamer-area, .play-instantly-section, .careers-area, .nav-section{
+        flex-direction: column;
+    }
+    .gamer-content, .play-games-description, .play-games-image, .play-games-description-2, .play-games-image-2{
+        width: 100%;
+        text-align: center;
+    }
+    .games-video {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, calc((100% - 20px) / 2));
+    }
+    .games-video p {
+        text-align: center;
+    }
+    .play-games-description, .play-games-description-2{
+        padding: 0px;
+    }
+    .none{
+        display: none;
+    }
+    .play-games-image, .play-games-image-2{
+        margin-top: 50px;
+    }
+    .play-instantly-section-2{
+        flex-direction: column-reverse;
+    }
+    .play-games-description h2, .play-games-description p{
+        text-align: right;
+    }
+    .play-games-description-2 h2, .play-games-description-2 p{
+        text-align: left;
+    }
+    .career-content{
+        width: 100%;
+    }
+    .careers{
+        padding: 80px 50px;
+    }
+    .career-image{
+        margin-top: 50px;
+    }
+    .footer-menu li a{
+        padding: 10px;
+        
+    }
+    .footer-menu ul, .footer-menu-2 ul{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+}
